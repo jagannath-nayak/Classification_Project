@@ -6,3 +6,12 @@ scikit-learn
 streamlit
 wordcloud
 nltk
+google-cloud-language 
+python-dotenv 
+google.generativeai
+streamlit-authenticator
+streamlit_lottie==0.0.5
+googlesearch-python==1.2.3
+sentence-transformers
+setuptools
+textblob

@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    jagga:
+      email: jagga@gmail.com
+      name: jagannath
+      password: $2b$12$vwS9QB54vKyb4298lv9uW.U1zjKvckcpOdV326inaVBQxoVNdx/0u
+    jagga12:
+      email: jagga12@gmail.com
+      name: jagannathnayak
+      password: $2b$12$ARCod4V64DEEWdi9rk7ra.z5w2MFJqJoeVdNCMnp0wdcDz90emj6y
