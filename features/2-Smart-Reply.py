@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 import json  # ✅ Ensure proper JSON parsing
 
 # ✅ Load API Key from .env file
-load_dotenv()
-google_api_key = os.getenv("GOOGLE_API_KEY")
-
+#load_dotenv()
+#google_api_key = os.getenv("GOOGLE_API_KEY")
+google_api_key = st.secrets["GOOGLE_API_KEY"]
 if not google_api_key:
     st.error("❌ Google API Key not found. Please check your .env file.")
 

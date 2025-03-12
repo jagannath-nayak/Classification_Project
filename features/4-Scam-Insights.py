@@ -6,9 +6,9 @@ from textblob import TextBlob
 from dotenv import load_dotenv
 
 # ✅ Load API Key from .env file
-load_dotenv()
-huggingface_api_key = os.getenv("HUGGINGFACE_API_KEY")
-
+#load_dotenv()
+#huggingface_api_key = os.getenv("HUGGINGFACE_API_KEY")
+huggingface_api_key = st.secrets["HUGGINGFACE_API_KEY"]
 if not huggingface_api_key:
     st.error("❌ Hugging Face API Key not found. Please check your .env file.")
 

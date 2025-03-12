@@ -8,9 +8,9 @@ from collections import Counter
 from wordcloud import WordCloud
 
 # ✅ Load API Key from .env file
-load_dotenv()
-news_api_key = os.getenv("NEWS_API_KEY")
-
+#load_dotenv()
+#news_api_key = os.getenv("NEWS_API_KEY")
+news_api_key = st.secrets["NEWS_API_KEY"]
 if not news_api_key:
     st.error("❌ News API Key not found. Please check your .env file.")
 
