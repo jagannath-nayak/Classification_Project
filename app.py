@@ -89,12 +89,12 @@ authentication()
 
 if st.session_state["authentication_status"]:
     pg = st.navigation([
-    st.Page(intro, title="Home", icon="🏠"),
-    st.Page("features/spam_detector.py", title="Spam Detector", icon="🛡️"),
-    st.Page("features/smart_reply.py", title="Smart Reply", icon="📧"),
-    st.Page("features/sentiment_categorization.py" , title = "Sentiment_Categorization", icon = "💡"),
-    st.Page("features/scam_insights.py", title="Scam Insights", icon="🔍"),
-    st.Page("features/scam_trend_analysis.py", title="Scam Trend Analysis", icon="📈"),
-    st.Page("features/feedback.py", title="Feedback", icon="💬")
+    st.Page(title="Home", page = intro, icon="🏠"),
+    st.Page(title="Spam Detector",page="features/1-Spam-Detector.py", icon="🛡️"),
+    st.Page(title="Smart Reply",page="features/2-Smart-Reply.py", icon="📧"),
+    st.Page(title="Sentiment_Categorization",page="features/3-Sentiment-Categorization.py", icon = "💡"),
+    st.Page(title="Scam Insights",page="features/4-Scam-Insights.py", icon="🔍"),
+    st.Page(title="Scam Trend Analysis",page="features/5-Scam-Trend-Analysis.py", icon="📈"),
+    st.Page(title="Feedback",page="features/6-Feedback.py", icon="💬")
       ])
     pg.run()
